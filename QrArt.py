@@ -1,6 +1,6 @@
 import qrcode
 import numpy as np
-import cv2
+from cv2 import cv2
 
 
 class QrArt():
@@ -8,6 +8,10 @@ class QrArt():
     def __init__(self):
         self.BOX_SIZE_CONST = 10
         self.BORDER_CONST = 2
+        self.assets = {}
+
+    def initiateAssets(self): 
+        return 0
 
     def generateQrMat(self, words):
         qr = qrcode.QRCode(
