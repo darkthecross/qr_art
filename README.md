@@ -14,4 +14,4 @@ qrcode[pil], opencv
 
 demo result:
 
-[!img](demo_res.png)
+![img](demo_res.png)
