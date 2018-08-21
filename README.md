@@ -11,3 +11,7 @@ qrcode[pil], opencv
 * run generate_qr_code.py "some string"
 
 * get your customized qr code!
+
+demo result:
+
+[img](demo_res.png)
